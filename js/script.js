@@ -47,7 +47,5 @@ function validate() {
     if(humGuess.value > 9 || humGuess.value < 0 || humGuess.value == ""){
         humGuess.value = 0;
         alert("Number is out of range"); 
-    }   else if (humGuess.value == null){
-        alert("Enter a number"); 
     }
 }
